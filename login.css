@@ -1,0 +1,184 @@
+body{
+    background: rgb(6, 6, 41);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    width: 350px;
+    height: 30px;
+    align-items: center;
+}
+
+.nav a{
+color: white;
+text-decoration: none;
+transition: .4s ease;
+}
+
+.nav a:hover{
+    color: rgb(145, 151, 156);
+}
+
+.ph{
+    color: aquamarine;
+    transition: 1s ease-in;
+}
+
+.ph:hover{
+    color: rgb(5, 85, 85);
+    transform: rotateX(30deg);
+}
+
+.welcoming{
+    font-size: 23px;
+    margin-left: 95px;
+    color: rgb(0, 157, 248);
+    transition: .6s ease-in-out;
+}
+
+.welcoming:hover{
+    color: rgb(39, 125, 175);
+    transform: rotateX(30deg);
+}
+
+.info{
+    margin-left: 500px;
+    margin-top: 30px;
+    display: flex;
+    height: 200px;
+    width: 310px;
+    justify-content: start;
+    padding: 15px;
+    background-color: rgba(83, 122, 156, 0.24);
+    border-radius: 45px 0px;
+}
+
+.email{
+    margin-left: 30px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.Email{
+    height: 28px;
+    margin-left: 15px;
+    border-radius: 15px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid lightblue;
+    transition: .5s;
+    box-shadow: 5px 5px 20px rgba(100, 148, 237, 0.411);
+}
+
+.Email:hover{
+    text-align: center;
+}
+
+.password{
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: 65px;
+    margin-left: -300px;
+}
+
+.Password{
+    height: 28px;
+    border-radius: 15px;
+    margin-top: 65px;  
+    margin-left: 12px;  
+    background-color: transparent;
+    border: 1px solid lightblue;
+    transition: .5s;
+    color: white;
+    box-shadow: 5px 5px 20px rgba(100, 148, 237, 0.411);
+}
+
+.Password:hover{
+    text-align: center;
+}
+
+.check{
+    font-size: 13px;
+    color: aquamarine;
+    margin-top: 130px;
+    margin-left: 2px;
+    height: 20px;
+}
+
+.checkbox{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 75px;
+    margin-left: -280px;
+}
+
+.btn{
+    height: 35px;
+    width: 90px;
+    margin-top: 160px;
+    margin-left: 85px;
+    border-radius: 25px;
+    border: 1px solid lightblue;
+    background-color: rgb(6, 6, 41);
+    transition: .9s ease;
+    box-shadow: 5px 5px 12px rgb(152, 188, 255);
+}
+
+.btn a{
+    display: flex;
+    text-decoration: none;
+    background-color: transparent;
+    height: 35px;
+    width: 90px;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    transition: .2s ease;
+}
+
+a{
+    margin-left: -7px;
+    margin-top: -2px;
+}
+
+.btn a:hover{
+    color: blue;
+}
+
+.btn:hover{
+    background-color: rgb(54, 101, 201);
+    color: rgb(0, 132, 255);
+    border: 2px solid white;
+    box-shadow: 5px 5px 20px;
+    transform: rotateZ(3deg);
+}
+
+.home{
+    display: flex;
+    color: rgb(17, 160, 255);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 13px;
+    background-color: transparent;
+    width: 60px;
+    height: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: -45px;
+    margin-left: 550px;
+    transition: .6s ease-out;
+}
+
+.home:hover{
+    color: rgb(8, 201, 127);
+    text-decoration: underline crimson;
+    transform: translateY(5px)
+}
